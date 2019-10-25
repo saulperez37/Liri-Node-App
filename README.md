@@ -56,9 +56,11 @@ This will search the OMDB API and display the following information to the termi
 With this command LIRI will use the text from the “random.txt” file and call one of LIRI’s commands. It should run spotify-this-song for “I want it That way”.
 
 ### Technologies used:
-* Spotify API
+* Node-Spotify-API
 * OMDB API
 * Bands In Town API
 * Node.js
 * Javascript
-* NPM packages
+* Axios
+* Moment
+* DotEnv
