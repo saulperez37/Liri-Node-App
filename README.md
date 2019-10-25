@@ -8,9 +8,8 @@ LIRI is a command line node app that takes in parameters and gives you back data
 
 ## How It Works:
 ### concert-this:
-`node liri.js concert-this <artist name>`
-
-Screen shot here
+`node liri.js concert-this <artist/band>`
+![concert-this-image](/concert-this.png)
 
 This will search the Bands in Town Artist Events API for an artist and display the following information about each event to the terminal/bash window:
 
@@ -19,9 +18,8 @@ This will search the Bands in Town Artist Events API for an artist and display t
 * Date of the Event (MM/DD/YYYY)
 
 ### spotify-this-song:
-`node liri.js spotify-this-song <song title>`
-
-Screen shot here
+`node liri.js spotify-this-song <song>`
+![spotify-this-song-image](/spotify-this-song.png)
 
 This will search the Spotify API and display the following information about the song in the terminal/bash window:
 
@@ -31,13 +29,11 @@ This will search the Spotify API and display the following information about the
 * The album that the song is from
 
 *If no song is provided then the program will default to "The Sign" by Ace of Base (This particular one shows "Sign" by Harry Styles.*
-
-Screen shot here
+![spotify-this-song-no-command](/spotify-this-song-no-command.png)
 
 ### movie-this:
-`node liri.js movie-this <movie title>`
-
-Screen shot here
+`node liri.js movie-this <movie>`
+![movie-this](/movie-this.png)
 
 This will search the OMDB API and display the following information to the terminal/bash window:
 
@@ -51,13 +47,11 @@ This will search the OMDB API and display the following information to the termi
 * Actors in the movie.
 
 *If a movie in is not entered, the program will output data for the movie 'Mr. Nobody.'*
-
-Screen shot here
+![movie-this-no-command](/movie-this-no-command.png)
 
 ### do-what-it-says:
 `node liri.js do-what-it-says`
-
-Screen shot here
+![do-what-it-says](/do-what-it-says.png)
 
 With this command LIRI will use the text from the “random.txt” file and call one of LIRI’s commands. It should run spotify-this-song for “I want it That way”.
 
