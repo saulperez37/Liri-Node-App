@@ -10,7 +10,7 @@ let bandsInTown = keys.bandsInTown;
 let omdbKey = keys.omdb.id;
 
 let command1 = process.argv[2];
-let command2 = process.argv[3];
+let command2 = process.argv.slice(3).join(" ");
 
 switch (command1) {
     case "concert-this":
@@ -60,14 +60,14 @@ function getSong(command2) {
             return console.log('Error occurred: ' + err);
         }
 
-        console.log(`===========TRACK INFO===========`);
+        console.log(`===============TRACK INFO===============`);
         console.log();
         console.log(`Artist(s): ${data.tracks.items[0].album.artists[0].name}`);
         console.log(`Song Name: ${data.tracks.items[0].name}`);
         console.log(`Song Preview Link: ${data.tracks.items[0].preview_url}`);
         console.log(`Album: ${data.tracks.items[0].album.name}`);
         console.log();
-        console.log(`================================`);
+        console.log(`========================================`);
     });
 };
 
