@@ -8,6 +8,8 @@ LIRI is a command line node app that takes in parameters and gives you back data
 
 ## How It Works:
 ### concert-this:
+`node liri.js concert-this <artist name>`
+
 Screen shot here
 
 This will search the Bands in Town Artist Events API for an artist and display the following information about each event to the terminal/bash window:
@@ -16,7 +18,9 @@ This will search the Bands in Town Artist Events API for an artist and display t
 * Venue location
 * Date of the Event (MM/DD/YYYY)
 
-### Spotify-this-song:
+### spotify-this-song:
+`node liri.js spotify-this-song <song title>`
+
 Screen shot here
 
 This will search the Spotify API and display the following information about the song in the terminal/bash window:
@@ -28,7 +32,11 @@ This will search the Spotify API and display the following information about the
 
 *If no song is provided then the program will default to "The Sign" by Ace of Base (This particular one shows "Sign" by Harry Styles.*
 
+Screen shot here
+
 ### movie-this:
+`node liri.js movie-this <movie title>`
+
 Screen shot here
 
 This will search the OMDB API and display the following information to the terminal/bash window:
@@ -44,7 +52,11 @@ This will search the OMDB API and display the following information to the termi
 
 *If a movie in is not entered, the program will output data for the movie 'Mr. Nobody.'*
 
+Screen shot here
+
 ### do-what-it-says:
+`node liri.js do-what-it-says`
+
 Screen shot here
 
 With this command LIRI will use the text from the “random.txt” file and call one of LIRI’s commands. It should run spotify-this-song for “I want it That way”.
