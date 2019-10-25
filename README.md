@@ -28,7 +28,7 @@ This will search the Spotify API and display the following information about the
 * A preview link of the song from Spotify
 * The album that the song is from
 
-*If no song is provided then the program will default to "The Sign" by Ace of Base (This particular one shows "Sign" by Harry Styles.*
+*If no song is provided then the program will default to "The Sign" by Ace of Base (This particular one shows "Sign Of The Times" by Harry Styles.*
 ![spotify-this-song-no-command](/spotify-this-song-no-command.png)
 
 ### movie-this:
